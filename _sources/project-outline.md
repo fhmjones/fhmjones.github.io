@@ -16,6 +16,7 @@ Progress as of November 2020 is summarized [here](progress-nov2020.md). Work und
 
 ## Project links
 
+* [Project repository](https://github.com/eoas-ubc/eoas_tlef)
 * [OCESE proposal](https://github.com/eoas-ubc/eoas-ubc.github.io/blob/docs/pdffiles/ocese_proposal_2019.pdf)
 * [3 year schedule](https://eoas-ubc.github.io/pdffiles/project_timeline.pdf) as of July 2020. (Priorities and deliverable scheduling will change as personnel, resources and COVID-19 evolve.)
 * [project board](https://github.com/eoas-ubc/eoas_tlef/projects/2)

@@ -1,6 +1,6 @@
 # Progress as of November 2020
 
-Year one priorities include infrastructure and tools development because these are prerequisite to implementing educational initiatives in courses and professional development activities for instructors.
+Year one priorities include infrastructure and tools development because these are prerequisite to implementing educational initiatives in courses and professional development activities for instructors. Track progress at the project's [github repo project board](https://github.com/eoas-ubc/eoas_tlef/projects/2).
 
 ## Accomplishments as of 2020/10/31
 
