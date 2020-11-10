@@ -15,7 +15,7 @@ This page will eventually provide guidelines and pointers to documentation for b
 
 ## Dashboard development progress as of Nov. 8, 2020
 
-The following dashboards are being developed for [ENVR 300, Introduction to Research in Environmental Science](https://www.eoas.ubc.ca/academics/courses/envr300), to be tested during the winter term, 2021.
+The following dashboards are being developed for [ENVR 300, Introduction to Research in Environmental Science](https://www.eoas.ubc.ca/academics/courses/envr300), to be tested during the winter term, 2021. Here is the [GitHub repository for this work](https://github.com/fhmjones/dashboards-envr300).
 * **MonaLoaCO2 - goals**: Have students explore the capabilities and limitations of **linear models based on measurements** for explaining or predicting a time-varying physical phenomenon.
 * **Three Signals - goals**: Demonstrate to students how various components can contribute to a complete timeseries signal. Currently, the procedure involves a sine wave, linear trend, random noise and smoothing of the result using a 5-pt moving average. Each can be enabled or disabled. Length of the sinewave can be adjusted from 1 to 10 cycles, and noise level can be adjusted.
 * **Vancouver-Ozone - goals:**
