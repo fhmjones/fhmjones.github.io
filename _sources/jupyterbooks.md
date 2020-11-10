@@ -94,20 +94,26 @@ The  resulting contents of the `docs/_build` folder will be copied to GitHub `us
 
 ## Publishing the Jupyter Book online
 
-Publish to your own `username.github.io` repo so it can be checked by you or others. The first two steps are needed once. After this setup, regular "publishing" is done starting at step 3.
+Publish to your own `username.github.io` repo so it can be checked by you or others. 
 
 1. The `ghp-import` utility should have been installed (above).
-2. Set a remote `upstream` as
+2. Temporarily set the remote `upstream` location as
 
    ```bash
    git remote add upstream https://github.com/username/username.github.io
    ```
 
-3. The last step is to send the folder with all HTML and associated materials (images, CSS, etc.) that was generated using `jb build` to the `master` branch at `username.github.io` using the following. Do this on the command line from the "root" of this repo.
+3. Send the folder with all HTML and associated materials (images, CSS, etc.) that was generated using `jb build` to the `master` branch at `username.github.io` using the following. Do this on the command line from the folder in which the `docs` folder resides.
 
    ```bash
    ghp-import -f --no-jekyll -p -b master docs/_build/html -r upstream
    ```
+
+4. Stop using that location as this repo's `upstream` by finishing with
+
+    ```bash
+    git remote remove upstream
+    ```
 
 ## Notes
 

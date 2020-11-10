@@ -107,6 +107,11 @@
   </a>
  </li>
  <li class="toctree-l1">
+  <a class="reference internal" href="progress-nov2020.html">
+   Progress
+  </a>
+ </li>
+ <li class="toctree-l1">
   <a class="reference internal" href="course_materials.html">
    Course material
   </a>
@@ -136,6 +141,11 @@
  <li class="toctree-l1">
   <a class="reference internal" href="tools.html">
    Course development tools
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="dashboards.html">
+   Dashboards
   </a>
  </li>
  <li class="toctree-l1">
@@ -352,16 +362,21 @@ conda activate windocs
 </div>
 <div class="section" id="publishing-the-jupyter-book-online">
 <h2>Publishing the Jupyter Book online<a class="headerlink" href="#publishing-the-jupyter-book-online" title="Permalink to this headline">¶</a></h2>
-<p>Publish to your own <code class="docutils literal notranslate"><span class="pre">username.github.io</span></code> repo so it can be checked by you or others. The first two steps are needed once. After this setup, regular “publishing” is done starting at step 3.</p>
+<p>Publish to your own <code class="docutils literal notranslate"><span class="pre">username.github.io</span></code> repo so it can be checked by you or others.</p>
 <ol>
 <li><p>The <code class="docutils literal notranslate"><span class="pre">ghp-import</span></code> utility should have been installed (above).</p></li>
-<li><p>Set a remote <code class="docutils literal notranslate"><span class="pre">upstream</span></code> as</p>
+<li><p>Temporarily set the remote <code class="docutils literal notranslate"><span class="pre">upstream</span></code> location as</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git remote add upstream https://github.com/username/username.github.io
 </pre></div>
 </div>
 </li>
-<li><p>The last step is to send the folder with all HTML and associated materials (images, CSS, etc.) that was generated using <code class="docutils literal notranslate"><span class="pre">jb</span> <span class="pre">build</span></code> to the <code class="docutils literal notranslate"><span class="pre">master</span></code> branch at <code class="docutils literal notranslate"><span class="pre">username.github.io</span></code> using the following. Do this on the command line from the “root” of this repo.</p>
+<li><p>Send the folder with all HTML and associated materials (images, CSS, etc.) that was generated using <code class="docutils literal notranslate"><span class="pre">jb</span> <span class="pre">build</span></code> to the <code class="docutils literal notranslate"><span class="pre">master</span></code> branch at <code class="docutils literal notranslate"><span class="pre">username.github.io</span></code> using the following. Do this on the command line from the folder in which the <code class="docutils literal notranslate"><span class="pre">docs</span></code> folder resides.</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ghp-import -f --no-jekyll -p -b master docs/_build/html -r upstream
+</pre></div>
+</div>
+</li>
+<li><p>Stop using that location as this repo’s <code class="docutils literal notranslate"><span class="pre">upstream</span></code> by finishing with</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git remote remove upstream
 </pre></div>
 </div>
 </li>

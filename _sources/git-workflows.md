@@ -1,6 +1,6 @@
 # GitHub and Git Workflows
 
-For an introduction to Git and version control, see the page [Git Intro](git-intro.html). This page outlines four levels of workflow complexity:
+For an introduction to Git and version control, see the page [Git Intro](./git-intro.md). This page outlines four levels of workflow complexity:
 1. Solo no branching workflow; the simplest use of GitHub as a repository for your own work only.
 2. Solo with branch and merge to manage your own development of features.
 3. Sharing but with no branching (not ideal).
@@ -13,20 +13,19 @@ Details follow.
 The simplest use of GitHub as a repository for your own work only, with local editing.
 
 1. In your GitHub account, use the big green **New** button to make a new blank repository.
-   1. It will ask you to name it, describe it briefly, declare it as public or private
-   1. Also you should answer the "initialize this repository" by adding README and license files. (The "BSD 3-Clause License" is OK.) These two should be included as a matter of good practice. 
-   1. a .gitignore file is not needed yet, but may be added later.
+   * It will ask you to name it, describe it briefly, declare it as public or private
+   * Also you should answer the "initialize this repository" by adding README and license files. (The "BSD 3-Clause License" is OK.) These two should be included as a matter of good practice. 
+   * a `.gitignore` file is not needed yet, but may be added later.
 2. Update the README.md file
-   1. Click the README.md file
-   1. Click the edit pencil icon
-   1. Add a line or two
-   1. Below the edit box you will see "Commit changes" information. Describe the change in the top one-line box, add optional info if you like, check email, be sure you pick "Commit directly to the master branch" and click the Commit changes button.
-3. That's all that is necessary.
-4. - Work can be carried out within the GitHub environment. Add new or upload files, edit text files (MarkDown or .md files or code, etc.) 
+   * Click the README.md file
+   * Click the edit pencil icon
+   * Add a line or two
+   * Below the edit box you will see "**Commit changes**" information. Describe the change in the top one-line box, add optional info if you like, check email, be sure you pick "**Commit directly to the master branch**" and click the **Commit changes** button.
+3. That's all that is necessary. Work can be carried out within the GitHub environment. Add new or upload files, edit text files (MarkDown or .md files or code, etc.), commit for version control, and so on.
 
-The next step is to clone to your local computer so you can work on the project on your own computer or laptop.
+   However, normally work will be done on your local computer so the next step is to clone this repo to your local computer.
 
-5. Install Git version control system on your own computer.
+5. If not already done, install Git version control system on your own computer. See the [git intro page](./git-intro.md).
 6. There are GUIs for all platforms, but it is "safer" to start using the command line, and move to a graphical user interface once you are able to work from the command line. 
 
 ---

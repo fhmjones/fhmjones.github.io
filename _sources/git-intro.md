@@ -120,7 +120,9 @@ On branch master
 nothing to commit, working tree clean
 ```
 
-That is all we'll cover here. For more comprehensive introductions and tutorials see the table of recommendations near the top of this page. For reference, here are all of the git commands used in this tutorial.
+---
+
+That is all we'll cover here. For more comprehensive introductions and tutorials see the table of recommendations below. For reference, here are all of the git commands used in this tutorial.
 
 `git config --global user.name "Max Planck" ` =  assign your name to your git repository (only do this once when you install git)
 

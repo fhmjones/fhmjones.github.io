@@ -12,13 +12,7 @@ This proposed curriculum transformation will happen alongside a re-evaluation of
 
 ## Progress
 
-During the summer of 2020 we have been working on:
-
-1. Developing a set of tools to make it easier to transition existing courses to the new executable notebook format.
-2. Developing and releasing introductory and tutorial material on Jupyter notebooks, python and working with git.
-3. Transitioning our first courses into the new notebook/markdown framework.
-4. Establishing scalable cloud-based and container-deployed computing capabilities so that students in courses that use computing-intensive Notebooks have reliable any-time access to these learning resources.
-Work underway is tracked on our [project board](https://github.com/eoas-ubc/eoas_tlef/projects/2)
+Progress as of November 2020 is summarized [here](progress-nov2020.md). Work underway is tracked on our [project board](https://github.com/eoas-ubc/eoas_tlef/projects/2)
 
 ## Project links
 

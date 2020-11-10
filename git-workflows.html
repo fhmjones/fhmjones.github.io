@@ -107,6 +107,11 @@
   </a>
  </li>
  <li class="toctree-l1">
+  <a class="reference internal" href="progress-nov2020.html">
+   Progress
+  </a>
+ </li>
+ <li class="toctree-l1">
   <a class="reference internal" href="course_materials.html">
    Course material
   </a>
@@ -173,6 +178,11 @@
  <li class="toctree-l1">
   <a class="reference internal" href="tools.html">
    Course development tools
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="dashboards.html">
+   Dashboards
   </a>
  </li>
  <li class="toctree-l1">
@@ -299,7 +309,7 @@
                 
   <div class="section" id="github-and-git-workflows">
 <h1>GitHub and Git Workflows<a class="headerlink" href="#github-and-git-workflows" title="Permalink to this headline">¶</a></h1>
-<p>For an introduction to Git and version control, see the page <span class="xref myst">Git Intro</span>. This page outlines four levels of workflow complexity:</p>
+<p>For an introduction to Git and version control, see the page <a class="reference internal" href="git-intro.html"><span class="doc std std-doc">Git Intro</span></a>. This page outlines four levels of workflow complexity:</p>
 <ol class="simple">
 <li><p>Solo no branching workflow; the simplest use of GitHub as a repository for your own work only.</p></li>
 <li><p>Solo with branch and merge to manage your own development of features.</p></li>
@@ -310,31 +320,26 @@
 <div class="section" id="solo-no-branching-workflow">
 <h2>1. Solo no branching workflow<a class="headerlink" href="#solo-no-branching-workflow" title="Permalink to this headline">¶</a></h2>
 <p>The simplest use of GitHub as a repository for your own work only, with local editing.</p>
-<ol class="simple">
+<ol>
 <li><p>In your GitHub account, use the big green <strong>New</strong> button to make a new blank repository.</p>
-<ol class="simple">
+<ul class="simple">
 <li><p>It will ask you to name it, describe it briefly, declare it as public or private</p></li>
 <li><p>Also you should answer the “initialize this repository” by adding README and license files. (The “BSD 3-Clause License” is OK.) These two should be included as a matter of good practice.</p></li>
-<li><p>a .gitignore file is not needed yet, but may be added later.</p></li>
-</ol>
+<li><p>a <code class="docutils literal notranslate"><span class="pre">.gitignore</span></code> file is not needed yet, but may be added later.</p></li>
+</ul>
 </li>
 <li><p>Update the README.md file</p>
-<ol class="simple">
+<ul class="simple">
 <li><p>Click the README.md file</p></li>
 <li><p>Click the edit pencil icon</p></li>
 <li><p>Add a line or two</p></li>
-<li><p>Below the edit box you will see “Commit changes” information. Describe the change in the top one-line box, add optional info if you like, check email, be sure you pick “Commit directly to the master branch” and click the Commit changes button.</p></li>
-</ol>
-</li>
-<li><p>That’s all that is necessary.</p></li>
-<li><ul class="simple">
-<li><p>Work can be carried out within the GitHub environment. Add new or upload files, edit text files (MarkDown or .md files or code, etc.)</p></li>
+<li><p>Below the edit box you will see “<strong>Commit changes</strong>” information. Describe the change in the top one-line box, add optional info if you like, check email, be sure you pick “<strong>Commit directly to the master branch</strong>” and click the <strong>Commit changes</strong> button.</p></li>
 </ul>
 </li>
-</ol>
-<p>The next step is to clone to your local computer so you can work on the project on your own computer or laptop.</p>
-<ol class="simple">
-<li><p>Install Git version control system on your own computer.</p></li>
+<li><p>That’s all that is necessary. Work can be carried out within the GitHub environment. Add new or upload files, edit text files (MarkDown or .md files or code, etc.), commit for version control, and so on.</p>
+<p>However, normally work will be done on your local computer so the next step is to clone this repo to your local computer.</p>
+</li>
+<li><p>If not already done, install Git version control system on your own computer. See the <a class="reference internal" href="git-intro.html"><span class="doc std std-doc">git intro page</span></a>.</p></li>
 <li><p>There are GUIs for all platforms, but it is “safer” to start using the command line, and move to a graphical user interface once you are able to work from the command line.</p></li>
 </ol>
 </div>
