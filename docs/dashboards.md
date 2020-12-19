@@ -34,6 +34,7 @@ First section will include these requirements:
 
 * Environment for develpment
 * Python libraries, some required, others optional
+* Options: using `ipywidgets`, the `Dash framework`, or perhaps other options for user interactions. This doc should summarize how to make a decision.
 * Buidling dashboard "apps" - code
 * Building dashboard "apps" - design criteria for optimal learning
 * Using apps - Voila and deployment to servers using containers.
@@ -56,7 +57,19 @@ yet to be written
 
 ## Deploying dashboards
 
-yet to be written
+Details yet to be written, but sections will likely include something like the following:
+
+### To run only on your own computer
+
+This choice makes sense when you are experimenting with the dashboard or planning (if only temporarily) on using it for presentations for a class or presentation.
+
+### Run within a "Voila" setting
+
+When accessible from a publicially server 'Voila', each user gets their own "isolated" instance of the user interface AND python kernal. 
+
+### Deploy as a Dash-based app.
+
+When accessible via a URL on a pubilically visible server, each user gets their own dashboard environment, but calls from individual users tothe  underlying python code are all run by the same python kernal, and specific results are returned just to the specific requesting user.
 
 ## References and resources
 

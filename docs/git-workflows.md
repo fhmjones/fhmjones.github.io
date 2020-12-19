@@ -32,10 +32,20 @@ The simplest use of GitHub as a repository for your own work only, with local ed
 
 ## 2. Solo with branch and merge
 
-No collaboration but use of branches to "contain" your own development of features.
+No collaboration but use of branches to "contain" your own development of features. Here's a typical workflow:
 
-- Not yet written.
+- List all local branches: `git branch`. Or list all branches, local and remote: `git branch -av`
+- Create a new branch called _new-branch_: `git branch new-branch`
+- Switch to the branch _new-branch_ and update the working directory: `git checkout new-branch`
+- Do all your work in this new branch. Files in working directories will reflect this work while files remaining in the other branch will not be visible but are not lost. You can revert to the other branch simply by using `git checkout branchname` again. All branches will remain available this way until they are deleted, as below.
+- Merge _branch-a_ into _branch-b_. Do this when the stuff you were figuring out in the "b" branch is ready to become part of the code or product in the "a" branch.
+   ```
+   git checkout branch-b
+   git merge branch-a
+   ```
+- Delete a branch called _my-branch_: `git branch -d my-branch`
 
+Upon using `git push` all existing branches will get pushed to GitHub. 
 ---
 
 ## 3. Sharing but with no branching (not ideal)

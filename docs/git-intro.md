@@ -144,6 +144,10 @@ That is all we'll cover here. For more comprehensive introductions and tutorials
 
 ---
 
+**One last point:** If you want, you can combine several repos into one big repo as git sub-repositories, perhaps for organizational purposes. See [the tutorial here](https://github.com/EmaroLab/docs/wiki/GitHub-Tutorial-to-Manage-Project-with-SubRepositories).
+
+---
+
 ## Backing Up Files On Github
 
 Github is an online *repository* which is used for backing up and sharing code/documents with collaborators. Repositories are copies of your files saved in the cloud, and can be either **public** (visible/accessible by anyone with the URL) or **private** (only accessible to specific users but subject to a subscription fee). 
