@@ -13,12 +13,12 @@ This page will eventually provide guidelines and pointers to documentation for b
 * complicated or extensive data sets
 * mathematical or analysis techniques
 
-## Dashboard development progress as of Nov. 8, 2020
+## Dashboard development progress as of January, 2021
 
-The following dashboards are being developed for [ENVR 300, Introduction to Research in Environmental Science](https://www.eoas.ubc.ca/academics/courses/envr300), to be tested during the winter term, 2021. Here is the [GitHub repository for this work](https://github.com/fhmjones/dashboards-envr300).
-* **MonaLoaCO2 - goals**: Have students explore the capabilities and limitations of **linear models based on measurements** for explaining or predicting a time-varying physical phenomenon.
-* **Three Signals - goals**: Demonstrate to students how various components can contribute to a complete timeseries signal. Currently, the procedure involves a sine wave, linear trend, random noise and smoothing of the result using a 5-pt moving average. Each can be enabled or disabled. Length of the sinewave can be adjusted from 1 to 10 cycles, and noise level can be adjusted.
-* **Vancouver-Ozone - goals:**
+The following dashboards were developed for [ENVR 300, Introduction to Research in Environmental Science](https://www.eoas.ubc.ca/academics/courses/envr300). Two have been tested in class with some student and instructor feedback gathered. Lessons learned will be incorporated into futur dashboards.
+* **[MaunaLoaCO2](https://hub.envr300.portal.eoas.ubc.ca/services/external/envr-300/monaloa/) - goals**: Have students explore the capabilities and limitations of **linear models based on measurements** for explaining or predicting a time-varying physical phenomenon.
+* **[Three Signals](https://hub.envr300.portal.eoas.ubc.ca/services/external/envr-300/three-signals/) - goals**: Demonstrate to students how various components can contribute to a complete timeseries signal. Currently, the procedure involves a sine wave, linear trend, random noise and smoothing of the result using a 5-pt moving average. Each can be enabled or disabled. Length of the sinewave can be adjusted from 1 to 10 cycles, and noise level can be adjusted.
+* **[Vancouver-Ozone](https://hub.envr300.portal.eoas.ubc.ca/services/external/envr-300/ozone/) - goals:**
   * Have students practice working with "messy" data sets using a year of ozone measurements from two sensors in SW British Columbia.
   * Compare ozone measurements at two locations, one near the ocean and one inland.
   * Compare raw, 7-day moving average and daily maximum 8-hr average. "Which makes what you want to learn most clearly visible?"
@@ -63,13 +63,11 @@ Details yet to be written, but sections will likely include something like the f
 
 This choice makes sense when you are experimenting with the dashboard or planning (if only temporarily) on using it for presentations for a class or presentation.
 
-### Run within a "Voila" setting
-
-When accessible from a publicially server 'Voila', each user gets their own "isolated" instance of the user interface AND python kernal. 
-
 ### Deploy as a Dash-based app.
 
-When accessible via a URL on a pubilically visible server, each user gets their own dashboard environment, but calls from individual users tothe  underlying python code are all run by the same python kernal, and specific results are returned just to the specific requesting user.
+The app is accessible via a URL on a publically visible server. Each user gets their own dashboard environment, but calls from individual users to the underlying python code are all run by the same python kernal, and specific results are returned just to the specific requesting user.
+
+There are other ways of deploying dashboards, but we are currently focusing on using Dash.
 
 ## References and resources
 
