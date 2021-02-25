@@ -19,13 +19,13 @@ Title: Building an open-source educational community around executable Jupyterbo
 
 ## EOAS or UBC meetings / workshops
 
-* **December 2020: Dep't mini retreat**. "_OCESE components and progress_". (PDF of prsentation is available.)
+* **December 2020: Dep't mini retreat**. "_OCESE components and progress_". ([PDF](https://github.com/fhmjones/ocese-docs/blob/master/PDFs/ocese-demo-dec15.pdf) of presentation slides.)
   * OCESE project components - which are attractive to you?
   * Faculty feedback
   * OCESE is working on: Jupyter notebooks and books, dashboards (the "low threshold"), auto-grading & connecting with Canvas, Local Jupyter Hubs and corresponding systems & workflows.  
   * students and instructors perspectives.
   * infrastructure.
-* **February 2021: participant meeting.** "_Dashboards: Making Concepts interactive_". (PDF of prsentation is available.)
+* **February 2021: participant meeting.** "_Dashboards: Making Concepts interactive_". ([PDF](https://github.com/fhmjones/ocese-docs/blob/master/PDFs/Fac-ProD-Feb-210215.pdf) of  presentation slides.)
   * Interactive learnign resources - precedent. (Targeting the "low threshold" end of the quantitative learnign spectrum.)
   * Initial examples in EOAS - ENVR 300.
   * Associated pedagogy.
