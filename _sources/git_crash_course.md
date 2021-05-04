@@ -1,4 +1,4 @@
-# Powershell, Git and System Administration Crash Course
+# Git and and GitHub Crash Course
 
 ---
 
@@ -10,7 +10,7 @@ The focus on this page is on setting up and using **Git** to track changes to fi
 
 ## Git and Github
 
-<img src="phd_versioncontrol.png">
+![img01](images/phd_versioncontrol.png "phd version control")
 Source: http://phdcomics.com/comics/archive.php?comicid=1531>
 
 <br>
@@ -34,13 +34,13 @@ $ cd EOAS500
 $ git init
 ```
 
-<img src='initial_git.png'>
+![img02](images/initial_git.png "intitial git")
 
 Open a file explorer/finder window and navigate to EOAS500. You may see a ```.git``` folder has appeared there. If you cannot see the folder, try following the instructions [here](myurl.com) for windows, or [here](myurl.com) on a mac to show hidden folders.
 
 Now let's add some content to our folder, as if we were working on a real project. For this example, create a file called ```my_example.txt``` using a text editor and save it in your EOAS500 folder. Git will tolerate almost any file type (.txt, .csv, docx, .py, .R, .m, etc).
 
-<img src='initial_file.png'>
+![img03](images/initial_file.png "intital file")
 
 Currently ```my_example.txt``` is saved on our hard drive but *not* tracked by git. You can check the status of the git repository by typing:
 

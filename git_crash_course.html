@@ -6,26 +6,26 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Powershell, Git and System Administration Crash Course &#8212; OCESE Outline and Docs</title>
+    <title>Git and and GitHub Crash Course &#8212; OCESE Outline and Docs</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
-    <link href="../_static/css/index.css" rel="stylesheet">
-    <link rel="stylesheet" href="../_static/sphinx-book-theme.css" type="text/css" />
-    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-dropdown.css" />
-    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
-    <script src="../_static/sphinx-book-theme.js"></script>
-    <script src="../_static/jquery.js"></script>
-    <script src="../_static/underscore.js"></script>
-    <script src="../_static/doctools.js"></script>
-    <script src="../_static/language_data.js"></script>
-    <script src="../_static/togglebutton.js"></script>
-    <script src="../_static/clipboard.min.js"></script>
-    <script src="../_static/copybutton.js"></script>
-    <script src="../_static/sphinx-book-theme.js"></script>
+    <link href="_static/css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="_static/sphinx-book-theme.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-dropdown.css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/sphinx-book-theme.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/sphinx-book-theme.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
@@ -35,9 +35,9 @@
         const thebe_selector_input = "pre"
         const thebe_selector_output = ".output"
     </script>
-    <script async="async" src="../_static/sphinx-thebe.js"></script>
-    <link rel="index" title="Index" href="../genindex.html" />
-    <link rel="search" title="Search" href="../search.html" />
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="docsearch:language" content="en">
@@ -54,9 +54,9 @@
 <div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
     
         <div class="navbar-brand-box">
-<a class="navbar-brand text-wrap" href="../index.html">
+<a class="navbar-brand text-wrap" href="index.html">
   
-  <img src="../_static/logo-04smsm.png" class="logo" alt="logo">
+  <img src="_static/logo-04smsm.png" class="logo" alt="logo">
   
   
   <h1 class="site-logo" id="site-title">OCESE Outline and Docs</h1>
@@ -64,7 +64,7 @@
 </a>
 </div>
 
-<form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+<form class="bd-search d-flex align-items-center" action="search.html" method="get">
   <i class="icon fas fa-search"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
 </form>
@@ -77,27 +77,27 @@
 </p>
 <ul class="nav sidenav_l1">
  <li class="toctree-l1">
-  <a class="reference internal" href="../project-outline.html">
+  <a class="reference internal" href="project-outline.html">
    Outline
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../progress-nov2020.html">
+  <a class="reference internal" href="progress-nov2020.html">
    Progress
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../course_materials.html">
+  <a class="reference internal" href="course_materials.html">
    Course material
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../outcomes.html">
+  <a class="reference internal" href="outcomes.html">
    Project Outcomes
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../personnel.html">
+  <a class="reference internal" href="personnel.html">
    Contributors
   </a>
  </li>
@@ -109,32 +109,32 @@
 </p>
 <ul class="nav sidenav_l1">
  <li class="toctree-l1">
-  <a class="reference internal" href="../basics.html">
+  <a class="reference internal" href="basics.html">
    Basic Skills &gt;&gt;
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../tools.html">
+  <a class="reference internal" href="tools.html">
    Course development tools
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../dashboards.html">
+  <a class="reference internal" href="dashboards.html">
    Dashboards
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../jupyter-etc.html">
+  <a class="reference internal" href="jupyter-etc.html">
    Jupyter and related
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../jupyterbooks.html">
+  <a class="reference internal" href="jupyterbooks.html">
    Jupyter Books
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../python-etc.html">
+  <a class="reference internal" href="python-etc.html">
    Python guidelines
   </a>
  </li>
@@ -180,7 +180,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/al's_crashcourse/git_crash_course.md"><button type="button"
+        <a class="dropdown-buttons" href="_sources/git_crash_course.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -233,8 +233,8 @@
         
               <div>
                 
-  <div class="section" id="powershell-git-and-system-administration-crash-course">
-<h1>Powershell, Git and System Administration Crash Course<a class="headerlink" href="#powershell-git-and-system-administration-crash-course" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="git-and-and-github-crash-course">
+<h1>Git and and GitHub Crash Course<a class="headerlink" href="#git-and-and-github-crash-course" title="Permalink to this headline">¶</a></h1>
 <hr class="docutils" />
 <div class="section" id="introduction">
 <h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
@@ -243,8 +243,8 @@
 </div>
 <div class="section" id="git-and-github">
 <h2>Git and Github<a class="headerlink" href="#git-and-github" title="Permalink to this headline">¶</a></h2>
-<img src="phd_versioncontrol.png">
-Source: http://phdcomics.com/comics/archive.php?comicid=1531>
+<p><img alt="img01" src="_images/phd_versioncontrol.png" />
+Source: http://phdcomics.com/comics/archive.php?comicid=1531&gt;</p>
 <br>
 <br>
 <p>Good housekeeping within your computer’s file system is an essential skill that every coder needs to develop. Writing and debugging code often involves a lot of trial and error, and often it makes sense to retain earlier versions of your project so in case you accidentally break your code, you can revert to the old version and try again. However, cluttered folders jammed with nearly identical copies of the same file/program is clearly not the elegant solution we would prefer to use. <em>Git</em> is a file management and version control system designed to avoid this scenario. Instead of saving each iteration of your project as a separate file and creating clutter, Git allows you to periodically check in your work (referred to as a <em>commit</em> in git parlance), keep notes on what changes were made, who made them, and allows you to revert to previous versions in case you or someone else accidentally introduces unwanted changes to your project. This is how most professional programmers keep track of their work. Beyond what is discussed here, Git has a huge range of additional features aimed at developers working collaboratively on complex software. Generally speaking, it is best to start with the simplest possible workflow progress from there depending on your team’s specific demands.</p>
@@ -259,10 +259,10 @@ $ git config --global user.email mplanck@example.com
 <span class="p">$</span> <span class="n">git</span> <span class="n">init</span>
 </pre></div>
 </div>
-<img src='initial_git.png'>
+<p><img alt="img02" src="_images/initial_git.png" /></p>
 <p>Open a file explorer/finder window and navigate to EOAS500. You may see a <code class="docutils literal notranslate"><span class="pre">.git</span></code> folder has appeared there. If you cannot see the folder, try following the instructions <span class="xref myst">here</span> for windows, or <span class="xref myst">here</span> on a mac to show hidden folders.</p>
 <p>Now let’s add some content to our folder, as if we were working on a real project. For this example, create a file called <code class="docutils literal notranslate"><span class="pre">my_example.txt</span></code> using a text editor and save it in your EOAS500 folder. Git will tolerate almost any file type (.txt, .csv, docx, .py, .R, .m, etc).</p>
-<img src='initial_file.png'>
+<p><img alt="img03" src="_images/initial_file.png" /></p>
 <p>Currently <code class="docutils literal notranslate"><span class="pre">my_example.txt</span></code> is saved on our hard drive but <em>not</em> tracked by git. You can check the status of the git repository by typing:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ git status
 </pre></div>
@@ -351,7 +351,7 @@ nothing to commit, working tree clean
         },
         kernelOptions: {
             kernelName: "python3",
-            path: "./al's_crashcourse"
+            path: "./."
         },
         predefinedOutput: true
     }
@@ -384,7 +384,7 @@ nothing to commit, working tree clean
       </div>
     </div>
 
-    <script src="../_static/js/index.js"></script>
+    <script src="_static/js/index.js"></script>
     
   </body>
 </html>

@@ -51,3 +51,7 @@ From a [short set of notes](https://vxuni.com/lectures/conda-environments/) with
   * The .yml file could have a different name, in which case these commands must specify that name using the `-f` parameter for "file". i.e.: `conda env create -f envname.yml`. 
 * After it is ready, `conda activate` will set the environment ready to use (or add the "name.yml" file's name if it is not environment.yml).
 * Alterantive to create: use `conda env update`. This automatically updates the environment specified in that file if one already exists, or creates it if it doesn't.
+
+## Useful resources
+
+* [Introduction to Conda for (Data) Scientists](https://github.com/carpentries-incubator/introduction-to-conda-for-data-scientists), a repository with CC BY 4.0 license, from Software Carpentry. 

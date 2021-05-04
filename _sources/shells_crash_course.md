@@ -1,4 +1,4 @@
-# Powershell, Git and System Administration Crash Course
+# Powershell and System Administration Crash Course
 
 ---
 
@@ -91,9 +91,9 @@ Your task is to create a directory in which we will store all files, labs, assig
 3) Use the **New Folder** button to create a new folder and name it "EOAS500"
 4) Double click on the folder to look inside it. Right now, it should be empty.
 5) Click the $\uparrow$ button to navigate to the *parent directory* one level above the current working directory.
-<img src='explorer_up.png'>
+![img01](images\explorer_up.png "explorer up")
 6) Now select the EOAS500 folder you just created and click the $\textcolor{red}{X}$ button to delete it. We will re-make it again shortly using powershell.
-<img src='explorer_del.png'>
+![img02](images/explorer_del.png "explorer del")
 
 #### PART 2: Powershell
 

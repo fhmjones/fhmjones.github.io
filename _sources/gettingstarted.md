@@ -15,7 +15,7 @@ Details follow.
 
 ## 1. Your command shell
 
-If you are not familiar with using a shell or command-line interface, a good place to start is [here](https://fhmjones.github.io/commandline.html). Or - a more conversational introduction is in our "crash course" page called [Shells, Systems and Git](al's_crashcorse/shells_crash_course.html). 
+If you are not familiar with using a shell or command-line interface, a good place to start is our [Command line and Shells](https://fhmjones.github.io/commandline.html) page. Or - a more conversational introduction is in our "crash course" page called [Powershell and System Administration Crash Course](shells_crash_course.md).
 
 ## 2. Installing miniconda
 
@@ -32,6 +32,8 @@ If you're new to the conda "environment manager", these links are helpful:
 Jupyter software is easily installed following directions under the heading **Getting Started with Classic Jupyter Notebook** on the [Jupyter installation](https://jupyter.org/install.html) page. Do NOT bother installing JupyterLab at this stage.
 
 ## 4. Using Jupyter Notebook for the first time.
-A well-paced tutorial from August 2020 is [How to Use Jupyter Notebook in 2020: A Beginner’s Tutorial](https://www.dataquest.io/blog/jupyter-notebook-tutorial/). The introduction to using Jupyter notebooks starts at the top and goes to the section "**Example Analysis**".
+A well-paced tutorial from August 2020 is [How to Use Jupyter Notebook in 2020: A Beginner’s Tutorial](https://www.dataquest.io/blog/jupyter-notebook-tutorial/). HOWEVER, assuming you have carried out steps 1-3 above (or their equivalent), ignore the **Installation** section. 
+
+The introduction to using Jupyter notebooks starts at **Creating Your First Notebook** and goes to the section "**Example Analysis**".
 
 After that, the tutorial becomes more of a "python" tutorial. It is quite good and worthwhile if you are new to Python. The third section called "**Sharing Your Notebooks**" introduces you to GitHub - again, it is well done, and worthwhile if you are new to using GitHub. *(Note: this tutorial is online, but apparently not "opensource". We may want to find one that has a Creative Commons license, so we can clone it and take charge of it for future maintenance purposes.)*
