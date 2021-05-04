@@ -311,17 +311,23 @@
 <div class="section" id="your-command-shell">
 <h2>1. Your command shell<a class="headerlink" href="#your-command-shell" title="Permalink to this headline">¶</a></h2>
 <p>If you are not familiar with using a shell or command-line interface, a good place to start is our <a class="reference external" href="https://fhmjones.github.io/commandline.html">Command line and Shells</a> page. Or - a more conversational introduction is in our “crash course” page called <a class="reference internal" href="shells_crash_course.html"><span class="doc std std-doc">Powershell and System Administration Crash Course</span></a>.</p>
+<p>In windows,</p>
 </div>
 <div class="section" id="installing-miniconda">
 <h2>2. Installing miniconda<a class="headerlink" href="#installing-miniconda" title="Permalink to this headline">¶</a></h2>
-<p>The open-source package-management system and environment-management system we use is <code class="docutils literal notranslate"><span class="pre">miniconda</span></code>. Its purpose is outlined at the conda documentation site <a class="reference external" href="https://conda.io/projects/conda/en/latest/index.html">here</a>. <code class="docutils literal notranslate"><span class="pre">Miniconda</span></code> is a minimal version of this package management tool that includes only the components necessary for running <code class="docutils literal notranslate"><span class="pre">conda</span></code> and <code class="docutils literal notranslate"><span class="pre">Python</span></code>.</p>
-<p>It would be good to start with a fresh install of the necessary tools and packages using <a class="reference external" href="https://docs.conda.io/en/latest/miniconda.html">miniconda</a>.
-If you’re new to the conda “environment manager”, these links are helpful:</p>
-<ul class="simple">
-<li><p>https://towardsdatascience.com/a-guide-to-conda-environments-bc6180fc533</p></li>
-<li><p>https://conda-forge.org/docs/user/introduction.html</p></li>
-<li><p>https://pypi.org/project/conda-lock/</p></li>
-</ul>
+<p>The open-source package-management system and environment-management system we use is <code class="docutils literal notranslate"><span class="pre">miniconda</span></code>. Its purpose is outlined at the conda documentation site <a class="reference external" href="https://conda.io/projects/conda/en/latest/index.html">here</a>.</p>
+<ol>
+<li><p>Install by choosing the Windows or macOS instructions under “Regular installation” at the Conda website <a class="reference external" href="https://conda.io/projects/conda/en/latest/user-guide/install/index.html#regular-installation">here</a>. Choose the Python 3.9 version, 64-bit (bash if on macOS).</p></li>
+<li><p>Windows: To complete the “<a class="reference external" href="https://conda.io/projects/conda/en/latest/user-guide/install/download.html#hash-verification">Verify your installer hashes</a>” step, open the Windows “Start” menu and type “Powershell”. Then navigate (use <code class="docutils literal notranslate"><span class="pre">cd</span></code> to change directory, <code class="docutils literal notranslate"><span class="pre">ls</span></code> to list the folder contents, etc … ) to the download folder where your miniconda executable file will be waiting, and type</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Get</span><span class="o">-</span><span class="n">FileHash</span> <span class="n">filename</span> <span class="o">-</span><span class="n">Algorithm</span> <span class="n">SHA256</span>
+</pre></div>
+</div>
+<p>Compare the resulting very long string to that next to the link you used to download the package (it is <a class="reference external" href="https://docs.conda.io/en/latest/miniconda.html">here</a>).</p>
+<p>Then finish the <a class="reference external" href="https://conda.io/projects/conda/en/latest/user-guide/install/windows.html">instruction steps</a> starting at “Double-click the <code class="docutils literal notranslate"><span class="pre">.exe</span></code> file”.</p>
+</li>
+<li><p>macOS: These instructions need to be added …</p></li>
+</ol>
+<p>If you’re new to the conda “environment manager”, a quite comprehensive introduction is at <a class="reference external" href="https://towardsdatascience.com/a-guide-to-conda-environments-bc6180fc533">A guide to conda environments</a>.</p>
 </div>
 <div class="section" id="getting-started-with-jupyter-notebook">
 <h2>3. Getting started with Jupyter Notebook<a class="headerlink" href="#getting-started-with-jupyter-notebook" title="Permalink to this headline">¶</a></h2>

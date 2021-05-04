@@ -177,4 +177,4 @@ will open a *notebook* in the current working directory.
 Take some additional practice navigating your computer's file system and running programs from your chosen shell. Most computer users are very familiar with their operating system's built in GUI, and it takes time to get used to performing operations without the same visual cues. With practice, using a shell becomes much easier, and often helps with broadening one's understanding of how their computer works "under the hood" of the GUI.
 
 ## Tutorial on Git and GitHub.
-For a similar tutorial page on using Git and GitHub see the accompanying page [here](git_crash_course.html). 
+For a similar tutorial page on using Git and GitHub see the accompanying page [here](git_crash_course.md).

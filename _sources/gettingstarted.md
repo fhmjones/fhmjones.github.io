@@ -17,15 +17,24 @@ Details follow.
 
 If you are not familiar with using a shell or command-line interface, a good place to start is our [Command line and Shells](https://fhmjones.github.io/commandline.html) page. Or - a more conversational introduction is in our "crash course" page called [Powershell and System Administration Crash Course](shells_crash_course.md).
 
+In windows, 
+
 ## 2. Installing miniconda
 
-The open-source package-management system and environment-management system we use is `miniconda`. Its purpose is outlined at the conda documentation site [here](https://conda.io/projects/conda/en/latest/index.html). `Miniconda` is a minimal version of this package management tool that includes only the components necessary for running `conda` and `Python`.
+The open-source package-management system and environment-management system we use is `miniconda`. Its purpose is outlined at the conda documentation site [here](https://conda.io/projects/conda/en/latest/index.html).
 
-It would be good to start with a fresh install of the necessary tools and packages using [miniconda](https://docs.conda.io/en/latest/miniconda.html).
-If you're new to the conda "environment manager", these links are helpful:
-- https://towardsdatascience.com/a-guide-to-conda-environments-bc6180fc533
-- https://conda-forge.org/docs/user/introduction.html
-- https://pypi.org/project/conda-lock/
+1. Install by choosing the Windows or macOS instructions under "Regular installation" at the Conda website [here](https://conda.io/projects/conda/en/latest/user-guide/install/index.html#regular-installation). Choose the Python 3.9 version, 64-bit (bash if on macOS).
+2. Windows: To complete the "[Verify your installer hashes](https://conda.io/projects/conda/en/latest/user-guide/install/download.html#hash-verification)" step, open the Windows "Start" menu and type "Powershell". Then navigate (use `cd` to change directory, `ls` to list the folder contents, etc ... ) to the download folder where your miniconda executable file will be waiting, and type 
+    ```
+    Get-FileHash filename -Algorithm SHA256
+    ```
+    Compare the resulting very long string to that next to the link you used to download the package (it is [here](https://docs.conda.io/en/latest/miniconda.html)).
+
+    Then finish the [instruction steps](https://conda.io/projects/conda/en/latest/user-guide/install/windows.html) starting at "Double-click the `.exe` file".
+
+3. macOS: These instructions need to be added ...
+
+If you're new to the conda "environment manager", a quite comprehensive introduction is at [A guide to conda environments](https://towardsdatascience.com/a-guide-to-conda-environments-bc6180fc533).
 
 ## 3. Getting started with Jupyter Notebook 
 
