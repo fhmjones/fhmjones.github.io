@@ -1,17 +1,14 @@
 # Jupyter Books
 
-This page will eventually include various approaches to building Jupyter Books.
-
-So far, the rest of this page summarizes one approach to making Jupyter books using Jupyter Book 2.0 in Windows. Content is created in Markdown (and ipnb) files, and the book will be displayed online as HTML. The result will be a GitHub-based website looking like https://fhmjones.github.io/index.html. 
+This page summarizes one approach to making Jupyter books using Jupyter Book 2.0 in Windows. Content is created in `Markdown` or `*.ipnb` files, and the book will be displayed online as HTML. The result will be a GitHub-based website looking like https://fhmjones.github.io/index.html. 
 
 **Note** that the "normal approach" to displaying websites in your GitHub account works fine (see [https://pages.github.com/](https://pages.github.com/)) but requires correct and complete HTML and related files (i.e. you would have to write in HTML). Furthermore, it does NOT work to simply generate a Jupyter book from your markdown, then transfer the resulting HTML to your `username.github.io/` repo.
 
-**Parts not yet written:**
+**Basic references**
 
-- Writing, and the parts needed for including navigation
-- Working with **[jb_tools](https://github.com/eoas-ubc/jb_tools/blob/master/tools_demo/Readme_conda.md)**.
-- Markdown for Jupyter books
-
+- Jupyter books documentation starts at [jupyterbook.org](https://jupyterbook.org/intro.html).
+- Jupytext documentation starts at ["Jupytext readthedocs"](https://jupytext.readthedocs.io/en/latest/index.html).
+- Installation boils down to running `conda install -c conda-forge jupytext`, then starting up Jupyter, opening a .ipynb file and checking that **Jupytext** option appears in the **File** menu. See [installation](https://jupytext.readthedocs.io/en/latest/install.html).
 
 ## 1. Setting up environments and working spaces
 
@@ -115,6 +112,8 @@ Publish to your own `username.github.io` repo so it can be checked by you or oth
     git remote remove upstream
     ```
 
-## Notes
+## Parts not yet written
 
-If the eventual location is elsewhere then the book contents should be shared with the other location's owner so they can (a) generate the HTML using JupyterBooks, then carry out the `ghp-import` step, or whatever other approach they use, or (b) share the whole HTML (etc.) package for more direct deployment.
+- Writing, and the parts needed for including navigation
+- Working with **[jb_tools](https://github.com/eoas-ubc/jb_tools/blob/master/tools_demo/Readme_conda.md)**.
+- Markdown for Jupyter books

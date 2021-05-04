@@ -4,7 +4,7 @@
 
 This is an introduction to navigating your computer via a command line interface like Windows **Powershell** or **Bash**. While useful for all programmers, it is essential for installing and using many computational tools including Git, Python and their management facilities like.
 
-For a recent (Oct 11, 2020) 35-min. video tutorial on terminals, shells, and the command line, see **[How do you use the Command line? PowerShell, cmd, bash?](https://www.youtube.com/watch?v=QKBcHuA3VJE)** This simultaneously demonstrates commands and behaviors in `Windows command line`, `Powersehll` and `Bash`. Concepts addressed include: "*shells vs terminals*", "*commands & command aliases*", command "*switches*" or "*parameters*" (and use of "*help*" or "*man*"), using "*tab*" and "*history*", "*home directory*", "*prompts*", "*redirects, appends & pipes*", the concept of "*administrator"", and more - including differences / similarities in these three shells.
+A useful 35-min. video tutorial (dated Oct 2020) on terminals, shells, and the command line is: [How do you use the Command line? PowerShell, cmd, bash?](https://www.youtube.com/watch?v=QKBcHuA3VJE) This simultaneously demonstrates commands and behaviors using `Windows command line`, `Powershell` and `Bash`. Concepts addressed include: >"*shells vs terminals*"; >"*commands & command aliases*"; >command "*switches*" or "*parameters*" (and use of "*help*" or "*man*"); >using "*tab*" and "*history*"; >"*home directory*", "*prompts*", "*redirects, appends & pipes*"; >the concept of "*administrator"", and more - including differences / similarities in these three shells.
 
 ## Shells
 

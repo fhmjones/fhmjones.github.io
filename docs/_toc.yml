@@ -15,11 +15,12 @@
   - file: basics
     title: Basic Skills >>
     sections:
+      - file: gettingstarted
       - file: commandline
+      - file: markdown
       - file: conda_environs
       - file: git-intro
       - file: git-workflows
-      - file: markdown
       - file: bestpractices
       - file: troubleshooting
   - file: tools
