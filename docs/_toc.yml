@@ -26,6 +26,7 @@ parts:
   - file: tools
   - file: dashboards
     title: Dashboards
+  - file: heroku
   - file: jupyter-etc
   - file: jupyterbooks
   - file: python-etc

@@ -6,7 +6,7 @@ Codes and procedures generated for the project will be available on GitHuB
 
 ## Dashboards
 
-[Dashboards](dashboards.html) to engage students and instructors with interactive tools enabling exploration ofdata sets and concepts in climate or environmental sciences, geophysics, oceanography, etc.
+Interactive [dashboard apps](https://fhmjones.github.io/dashboards.html) to engage students and instructors with online tools enabling exploration ofdata sets and concepts in climate or environmental sciences, geophysics, oceanography, etc.
 
 ## Presentations
 

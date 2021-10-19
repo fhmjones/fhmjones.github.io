@@ -9,9 +9,9 @@ This page will eventually provide guidelines and pointers to documentation for b
 ## Dashboards being developed as of November, 2021
 
 Climate science & oceanography:
+* **[ocgy-dataviewer](https://ocgy-dataviewer.herokuapp.com/)**, on github at [repo](https://github.com/jamiebyer/ocgy-dataviewer), observe and compare trace element and physical properties in the water column at selected locations in the Southern Ocean, the Atlantic and the North Pacific.
 * **[climate-change-graph](https://climate-change-graphs.herokuapp.com/)**, on github at [repo](https://github.com/jamiebyer/climate-change-graph), anticipated to be used in eosc112 and eosc116 in term 2021W1
 * **climate-mind-map**, on github at [repo](https://github.com/jamiebyer/climate-mind-map), instructors want to do a "paper" activity based on these ideas first.
-* **[ocgy-dataviewer](https://ocgy-dataviewer.herokuapp.com/)**, on github at [repo](https://github.com/jamiebyer/ocgy-dataviewer), global variables have been callenging
 * **[climate-maunaloa](https://climate-maunaloa.herokuapp.com/)**, on github at [repo](https://github.com/fhmjones/envr-maunaloa), used Jan. 2021 in envr300.
 * **climate-maunaloa-jnb**, on github at [repo](https://github.com/fhmjones/envr-maunaloa-jnb), a Jupyter Notebook version of this. 
 * **[climate-ozone](https://climate-ozone.herokuapp.com/)**, on github at [repo](https://github.com/fhmjones/envr-ozone), made for envr300.
@@ -28,7 +28,7 @@ Geophysics or "signals"
 * **[timeseries-3signals](https://timeseries-3signals.herokuapp.com/)**, on github at [repo](https://github.com/fhmjones/envr-3signals), used Jan. 2021 in envr300.
 * **[timeseries-FFT](none)**, on github at [repo](https://github.com/fhmjones/timeseries-fft), works, but incomplete.
 * **[interactive images](https://clickimage.herokuapp.com/)**, on github at [repo](https://github.com/fhmjones/ClickImage), simply to illustrate interactivity with figures.
-* **[gpglabs (many)](https://e350hub.eoastest5.xyz)**, on github at [repo](https://github.com/geoscixyz/gpgLabs), applied geophisics. Fwd & inverse modeling and physics. Secure for course use. 
+* **[gpglabs (many)](https://e350hub.eoastest5.xyz)**, on github at [repo](https://github.com/geoscixyz/gpgLabs), applied geophysics. Fwd & inverse modeling and physics. Secured for course use.
 
 ---
 
@@ -57,7 +57,7 @@ This choice makes sense when you are experimenting with the dashboard or plannin
 
 ### Deploy to Heroku.
 
-See the [Heroku](heroku.html) page.
+See the [Heroku](https://fhmjones.github.io/heroku.html) page.
 
 ## References and resources
 
