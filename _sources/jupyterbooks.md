@@ -92,11 +92,12 @@ Publish to your own `username.github.io` repo so it can be checked by you and se
    git remote add upstream https://github.com/username/username.github.io
    ```
 
-3. Send the folder with all HTML and associated materials (images, CSS, etc.) that was generated using `jb build` to the `master` branch at `username.github.io` using the following. Do this on the command line from the folder in which the `docs` folder resides.
+3. Send the folder with all HTML and associated materials (images, CSS, etc.) that was generated using `jb build` to the `master` (or `main`) branch at `username.github.io` using the following. Do this on the command line from the folder in which the `docs` folder resides.
 
    ```
    ghp-import -f --no-jekyll -p -b master docs/_build/html -r upstream
    ```
+   Change `master` to `main` depending on the name of your main branch.
 
 4. Stop using that location as this repo's `upstream` by finishing with
 
